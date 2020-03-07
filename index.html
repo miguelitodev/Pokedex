@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+
+    <!-- Link do icone da página -->
+    <link rel="shortcut icon" href="./src/assets/img/pokemon.ico" type="image/x-icon">
+    <!-- Link do meu CSS -->
+    <link rel="stylesheet" href="./src/css/style.css">
+
+</head>
+
+<body>
+    <div>
+        <input class="pesquisar" type="text" name="buscar" id="buscar"
+            placeholder="Busque um pokémon pelo nome ou número">
+        <input class="botaoPesquisar" type="button" value="BUSCAR" onclick="pokemon()">
+    </div>
+    <div class="pokemon">
+        <img id="img" src="" width="25%">
+        <div id="nome"></div>
+        <div class="tablePokemon">
+            <table>
+                <thead>
+                    <tr>
+                        <th id="hpTexto"></th>
+                        <th id="attackTexto"></th>
+                        <th id="typeTexto"></th>
+                        <th id="specialAttackTexto"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="hp"></td>
+                        <td id="attack"></td>
+                        <td id="type"></td>
+                        <td id="specialAttack"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Link do meu js -->
+    <script type="text/javascript" src="./src/js/script.js"></script>
+</body>
+
+</html>

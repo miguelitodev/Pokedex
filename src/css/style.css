@@ -1,0 +1,89 @@
+* {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url('../assets/img/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#nome {
+
+    color: #8c8c8c;
+    font-size: 25px;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pesquisar {
+    width: 450px; 
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    outline: none;
+    text-align: left;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+.pokemon {
+    background-color: #fff;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 50px;
+    height: 400px;
+    padding-top: 50px;
+}
+
+
+.botaoPesquisar {
+    padding: 25px;
+    color: #fff;
+    background-color: crimson;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+.tablePokemon th{
+    padding: 20px;
+    font-size: 20px;
+    color: #8c8c8c;
+    font-weight: bold;
+}
+
+.tablePokemon td{
+    font-size: 15px;
+    color: #8c8c8c;
+}
+
+@media (max-width: 700px) {
+    .pesquisar {
+        width: 200px;
+        padding: 15px;
+        font-size: 10px;
+    }
+    .botaoPesquisar {
+        padding: 14px;
+    }
+    .pokemon {
+        width: 80%;
+        height: 300px;
+    }
+    .tablePokemon th {
+        padding: 10px;
+        font-size: 15px;
+    }
+    .tablePokemon td {
+        font-size: 13px;
+    }
+}
